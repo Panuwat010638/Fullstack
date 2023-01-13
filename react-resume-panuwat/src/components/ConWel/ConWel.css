@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Noto+Sans+Thai:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+
+.h1classWelcome{
+    text-align: center;
+    color: #e50914;
+    font-family: 'Open Sans', sans-serif;
+    text-shadow: 1px 1px 2px rgba(43, 8, 8, 0.8);
+    font-size: 60px;
+  
+  }
+  .pclass{
+    text-align:start;
+    color: #ffff;
+    margin-bottom: 35px;
+    font-size: 20px;
+    font-family: 'Noto Sans Thai', sans-serif; 
+  }
+  .conWel-contianer{
+    background-color: #0c1618;
+    padding: 20px;
+    border: 2px solid #1f1919;
+    border-radius: 30px;
+    width: 550px;
+    height: 380px;
+    box-shadow: 2px 2px 8px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    
+  
+  }
+  .anna{
+    position: relative;
+  padding: 20px 50px ;
+  display: block;
+  text-decoration: none;
+  text-transform:uppercase;
+  width:200px;
+  overflow: hidden;
+  border-radius: 40px;
+  border:4px solid #0c1618;
+  
+  
+  }
+  
+  .anna span{
+  position: absolute;
+  top: -4%;
+  left: 39%;
+  color: #ffff;
+  font-size: 30px;
+  font-family: Arial;
+  letter-spacing: 2px;
+  z-index: 1;
+  }
+  
+  .anna .liquid{
+    position: absolute ;
+    top: -80px;
+    left: 0;
+    width: 200px;
+    height: 200px;
+    background: #d70b15;
+    box-shadow: inset 0 0 50px rgba(0, 0, 0, 0.5);
+    transition: .5s;
+   
+  }
+  
+  .anna .liquid::after,
+  .anna .liquid::before {
+    content: ' ';
+    width: 200%;
+    height: 200%;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -75%);
+    background: #000;
+  
+  }
+  .anna .liquid::before{
+    border-radius: 45%;
+    background: rgba(20, 20, 20, 1);
+    animation: animate 5s linear infinite;
+  
+  
+  }
+  
+  .anna .liquid::after{
+    border-radius: 40%;
+    background: rgba(20, 20, 20, .5);
+    animation: animate 10s linear infinite;
+  
+  
+  }
+  
+  .anna:hover .liquid{
+    top: -120px;
+  }
+  .conwel-bg{
+    background-color: black;
+    background-image: url('https://wallpapers.com/images/file/red-and-dark-city-o8yxmzakcd75o0cv.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+  }
+  
+  @keyframes animate {
+    0%{
+      transform: translate(-50%,-75%)rotate(0deg);
+    }
+    100%{
+      transform: translate(-50%,-75%)rotate(360deg);
+    }
+  }
+  @media screen and (max-width: 480px) {
+    .h1class{
+      text-align: center;
+      color: #e50914;
+      font-family: 'Open Sans', sans-serif;
+      text-shadow: 1px 1px 2px rgba(43, 8, 8, 0.8);
+      font-size: 40px;
+
+    }
+    .con2{
+      background-color: #0c1618;
+      padding: 20px;
+      border: 2px solid #1f1919;
+      border-radius: 30px;
+      width: 300px;
+      height: 400px;
+      box-shadow: 2px 2px 8px 4px rgba(0, 0, 0, 0.1);
+      position: absolute;
+      top: 28%;
+      left: 11%;
+
+      
+    }
+    .pclass{
+      text-align:start;
+      color: #ffff;
+      margin-bottom: 10px;
+      font-size: 17px;
+      font-family: 'Noto Sans Thai', sans-serif; 
+    }
+
+
+  }

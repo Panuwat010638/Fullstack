@@ -1,0 +1,44 @@
+
+.con-ProPOSContent{
+    max-width: 1080px;
+    margin: 0 auto;
+}
+.con-contentP2{
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem 0;
+}
+.con-contentP2-1 img{
+    width: 100%;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+.con-contentP2-2{
+    color: black;
+    padding: 2rem;
+    text-align: left;
+}
+
+.con-contentP2-flowchart{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    border: 2px solid black;
+    margin-top: 5rem;
+    margin-bottom: 2.5rem;
+    border-radius: 10px;
+}
+.con-contentP2-flowchart img{
+    width: 100%;
+    
+}
+@media screen and (max-width: 480px) {
+    .con-contentP2 {
+        flex-direction: column;
+    }
+    .con-contentP2:nth-child(3) .con-contentP2-2 {
+        order: 2;
+    }
+}

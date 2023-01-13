@@ -1,0 +1,44 @@
+
+.con-ProFarmContent{
+    max-width: 1080px;
+    margin: 0 auto;
+}
+.con-contentP1{
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem 0;
+}
+.con-contentP1-1 img{
+    width: 100%;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+.con-contentP1-2{
+    color: black;
+    padding: 2rem;
+    text-align: left;
+}
+
+.con-contentP1-flowchart{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    border: 2px solid black;
+    margin-top: 5rem;
+    margin-bottom: 2.5rem;
+    border-radius: 10px;
+}
+.con-contentP1-flowchart img{
+    width: 100%;
+    
+}
+@media screen and (max-width: 480px) {
+    .con-contentP1 {
+        flex-direction: column;
+    }
+    .con-contentP1:nth-child(3) .con-contentP1-2 {
+        order: 2;
+    }
+}

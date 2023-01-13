@@ -1,0 +1,84 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.bodyProject{
+ 
+    width: 100%;
+    height: 100vh;
+    background-color: #000000;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover cover;
+    background-attachment: fixed;
+    background-image: none;
+  
+  }
+.project-con{
+  display: flex;
+  background-color: rgb(0, 0, 0);
+  width: 100%;
+  height: 80%;
+  background-position: center;
+  justify-content:center;
+  align-items: center;
+  flex-wrap: wrap;
+
+}
+.project-img{
+  background-color: rgb(0, 0, 0);
+  height: 210px;
+  width: 100%;
+  margin-bottom: 15px;
+  background-position: center;
+  background-size: cover;
+}
+
+.project-1{
+  background-image: url('https://scontent.futp2-1.fna.fbcdn.net/v/t1.15752-9/322418799_962004438114640_2783281953797159491_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeEeqL-BwU3DK9OtQQNXOSIJFD-TXJzryy8UP5NcnOvLLztt0kEjn9wWIRCxOYVwcMQtq2ZMZETGF4ouEO378E2D&_nc_ohc=iFZTIMcE2F4AX_06QGR&_nc_ht=scontent.futp2-1.fna&oh=03_AdSKMSG7txIwi6IeFhnHF2pIzSdE6ttN5D2MN3nuqweACQ&oe=63E76BF1');
+
+}
+.project-2{
+  background-image: url('https://scontent.futp2-1.fna.fbcdn.net/v/t1.15752-9/321976696_1118325015506343_6950834299164584806_n.png?_nc_cat=100&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeEOeaMZVEpg5-6ZdFVRgCaHVAXA1Ba73GlUBcDUFrvcaeusmJ-p3HpidKW7rdf0GYqkrPVi4fMREn_5F48WLBQi&_nc_ohc=Q3bbdaSQyoAAX8Oaz--&_nc_ht=scontent.futp2-1.fna&oh=03_AdQ9PAV7HxbZBRGnOQpnyEtOsMRW4i0BLi3vrUjATzeilw&oe=63E7723A');
+  
+}
+.project-3{
+  background-image: url('https://scontent.fbkk12-5.fna.fbcdn.net/v/t1.15752-9/324881446_1210699526498880_4614928948430788419_n.png?_nc_cat=105&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeG8OSu74MxJI7VBdoNdX_D1Xg_rMIrWRr9eD-switZGv_fdApQLmUSze3hh_go2YXU__WqiIrJV3hd7da3NavuZ&_nc_ohc=T7_wOAx4dvkAX8Ew66Q&tn=PMH6VsMoTDaK5Mff&_nc_ht=scontent.fbkk12-5.fna&oh=03_AdRfhADDuhVFjv3p_U1l_U55iMe_467QeHd3L9ehCXd80Q&oe=63E741AC');
+
+}
+.project-h3class{
+  padding: 10px;
+  text-decoration: none;
+}
+.project-pclass{
+  padding: 10px;
+  text-decoration: none;
+  
+}
+
+.project-card{
+  background: white;
+  color: black;
+  width: 290px;
+  height: 460px;
+  margin: 20px;
+  border: 2px solid black;
+  overflow: hidden;
+  cursor: pointer;
+  text-decoration: none;
+  box-shadow: 0px 0px 10px 10px rgba(220, 220, 220, 0.1);
+}
+.project-card:hover {
+  background: rgba(131, 131, 131, 0.682);
+  color: white;
+  transform: scale(1.05);
+  transition: all 0.5s ease;
+}
+
+@media  screen and ( max-width:480px) {
+  .bodyProject{
+    height: 100%;
+  }
+  
+}

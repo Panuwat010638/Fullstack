@@ -1,0 +1,47 @@
+.con-ProFarmBanner{
+    margin: 0 auto;
+    max-width: 1080px;
+}
+
+.banner-bg1{
+    height: 500px;
+    background: url("https://cisweb.lancaster.ac.uk/img/cwip/cisweb.lancaster.ac.uk/EventsMedia/dan-richards-2-638034267348043066.jpg?mode=crop&width=874&height=289&center=0.48%2c0.48") no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    filter: brightness(95%);
+}
+.banner-con1{
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.banner-text1{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    
+}
+.banner-text1 h1{
+    color: red;
+    
+}
+.span1{
+    color: red;
+}
+.banner-btn1 {
+    background: #fff;
+    display: inline-block;
+    padding: .5rem 1rem;
+    text-decoration: none;
+    color: #333;
+    border: 2px solid transparent;
+    transition: 0.3s;
+    margin-top: 1rem;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+.banner-btn1:hover {
+    border: 2px solid #fff;
+    background: transparent;
+    color: #fff;
+}
